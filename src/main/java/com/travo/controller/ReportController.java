@@ -15,4 +15,10 @@ public class ReportController {
         mav.setViewName("admin-page");
         return mav;
     }
+
+    @GetMapping("/locationDetail")
+    public ModelAndView locationDetail(ModelAndView mav){
+        mav.setViewName("location-detail");
+        return mav;
+    }
 }
